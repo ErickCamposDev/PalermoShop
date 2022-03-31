@@ -24,6 +24,6 @@ Developed application to test my knowledge in React Native for a job selection. 
 + Run `react-native run-android`
 
 # Screens 
-![Home](https://user-images.githubusercontent.com/34358287/87234060-b7441780-c3a3-11ea-93a0-cd726c42e0bd.png)
+![home](https://user-images.githubusercontent.com/34358287/161111427-763991ae-6f45-486e-98d1-7f4e62e97f74.jpeg)
 ![darkModeAndroid](https://user-images.githubusercontent.com/34358287/161109493-80bd6d28-bfbc-4715-80c7-6be3bb81d021.jpeg)
 ![cart](https://user-images.githubusercontent.com/34358287/161109837-2e43d3ba-d527-4c77-8d1f-64780ebdcb90.jpeg)
