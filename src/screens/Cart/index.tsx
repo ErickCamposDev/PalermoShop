@@ -11,9 +11,9 @@ import {ICartContext} from '../../types/cart';
 import {IProduct} from '../../types/product';
 import styles from './styles';
 
-interface CartProps {}
+interface CartProps { }
 
-const Cart: FC<CartProps> = ({}) => {
+const Cart: FC<CartProps> = ({ }) => {
   const {cartItems} = useContext(CartContext) as ICartContext;
 
   const calculatePrice = () => {
@@ -45,7 +45,9 @@ const Cart: FC<CartProps> = ({}) => {
         {renderCartItems()}
       </View>
       <PriceCart price={`${calculatePrice()}`} />
-      <PrimaryButton title="FINALIZAR COMPRA" />
+      <View style={styles.buttonContainer}>
+        <PrimaryButton title="FINALIZAR COMPRA" />
+      </View>
     </SafeAreaView>
   );
 };

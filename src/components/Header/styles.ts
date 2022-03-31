@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 import {theme} from '../../theme';
 
 const styles = StyleSheet.create({
@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginHorizontal: 20,
+    marginTop: Platform.OS === 'android' ? 20 : 0
   },
   text: {
     fontFamily: theme.fonts.bold,
